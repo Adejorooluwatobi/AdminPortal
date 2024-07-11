@@ -137,7 +137,7 @@ const NewSlider = () => {
                             type="file"
                             name="image"
                             onChange={handleFileChange}
-                            required
+                            
                           />
                         </Form.Group>
                         <Form.Group>
@@ -146,7 +146,7 @@ const NewSlider = () => {
                             type="file"
                             name="image2"
                             onChange={handleFileChange}
-                            required
+                            
                           />
                         </Form.Group>
                         <Button type="submit" className="btn btn-primary mt-3">

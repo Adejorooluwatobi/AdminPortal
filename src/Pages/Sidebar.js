@@ -50,28 +50,60 @@ const Sidebar = () => {
               </Link>
             </li>
             <li className="sidebar-item">
-              <a className="sidebar-link" href="./ui-card.html" aria-expanded="false">
+            <Link to="/product" className="sidebar-link" aria-expanded="false">
                 <span>
                   <i className="ti ti-cards"></i>
                 </span>
-                <span className="hide-menu">Card</span>
-              </a>
+                <span className="hide-menu">Products</span>
+              </Link>
             </li>
             <li className="sidebar-item">
-              <a className="sidebar-link" href="./ui-forms.html" aria-expanded="false">
+            <Link to="/consultation" className="sidebar-link" aria-expanded="false">
                 <span>
                   <i className="ti ti-file-description"></i>
                 </span>
                 <span className="hide-menu">Forms</span>
-              </a>
+              </Link>
             </li>
             <li className="sidebar-item">
-              <a className="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+            <Link to="/cardPayment" className="sidebar-link" aria-expanded="false">
                 <span>
                   <i className="ti ti-typography"></i>
                 </span>
-                <span className="hide-menu">Typography</span>
-              </a>
+                <span className="hide-menu">Payments</span>
+              </Link>
+            </li>
+            <li className="sidebar-item">
+              <Link to="/about" className="sidebar-link" aria-expanded="false">
+                <span>
+                  <i className="ti ti-cards"></i>
+                </span>
+                <span className="hide-menu">About</span>
+              </Link>
+            </li>
+            <li className="sidebar-item">
+            <Link to="/article" className="sidebar-link" aria-expanded="false">
+                <span>
+                  <i className="ti ti-file-description"></i>
+                </span>
+                <span className="hide-menu">Article</span>
+              </Link>
+            </li>
+            <li className="sidebar-item">
+            <Link to="/blog" className="sidebar-link" aria-expanded="false">
+                <span>
+                  <i className="ti ti-typography"></i>
+                </span>
+                <span className="hide-menu">Blog</span>
+              </Link>
+            </li>
+            <li className="sidebar-item">
+            <Link to="/testimonial" className="sidebar-link" aria-expanded="false">
+                <span>
+                  <i className="ti ti-typography"></i>
+                </span>
+                <span className="hide-menu">Testimonial</span>
+              </Link>
             </li>
             <li className="nav-small-cap">
               <i className="ti ti-dots nav-small-cap-icon fs-4"></i>
